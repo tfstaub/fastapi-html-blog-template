@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+
+{{title}}
+
+{% endblock %}
+
+{% block main %}
+
+<article class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
+  {{ content|safe }}
+</article>
+
+{% endblock %}
